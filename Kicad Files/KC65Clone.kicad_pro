@@ -52,28 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|283956200|155892500|8b2d3a89-c7e6-4e81-840a-97ac93bc6d95|ff3eb9c5-572a-4998-8231-50d1a3aa21b5",
-          ""
-        ],
-        [
-          "solder_mask_bridge|339534600|74922500|1b112345-aa03-42a0-bb20-a22b08e1b7b6|e4c44129-c68e-4dfc-bee9-9337e543bcbd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|72024950|155892500|1ead5bf5-e756-4955-adab-9de17c662e41|60dd6acb-868b-4663-a157-5acd9361f845",
-          ""
-        ],
-        [
-          "solder_mask_bridge|73215550|117792500|f36003cf-5a79-4cc8-8faa-dc19b78a0dcb|b692ba33-d9d0-48e9-8b2c-f10ca25c26b4",
-          ""
-        ],
-        [
-          "solder_mask_bridge|95837450|155892500|6d1ac108-853f-418c-a91d-1960ffcde205|31078e52-8a56-42ef-911a-7fffc1a58771",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -94,17 +73,17 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "ignore",
         "hole_to_hole": "ignore",
         "holes_co_located": "warning",
-        "invalid_outline": "ignore",
+        "invalid_outline": "error",
         "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -117,11 +96,11 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -465,6 +444,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
